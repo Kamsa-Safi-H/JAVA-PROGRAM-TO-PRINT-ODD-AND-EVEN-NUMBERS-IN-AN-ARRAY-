@@ -57,10 +57,29 @@ o View output in the Console window.
 o After finishing, click File > Exit to close Eclipse IDE.
 
 ## PROGRAM:
+```
+    System.out.print("Even Numbers: ");
+    for (int num : numbers) {
+        if (num % 2 == 0) {
+            System.out.print(num + " ");
+        }
+    }
+
+    System.out.println(); // For a new line
+
+    System.out.print("Odd Numbers: ");
+    for (int num : numbers) {
+        if (num % 2 != 0) {
+            System.out.print(num + " ");
+        }
+    }
+}
+```
 
 ## OUTPUT:
-
-
+<img width="1039" height="515" alt="Screenshot 2025-11-13 112624" src="https://github.com/user-attachments/assets/5d3bb22d-06fa-4219-872d-93b4193ce881" />
 
 
 ## RESULT:
+Thus, the program to separate odd and even numbers from an array using Java is developed, and the output is verified.
+
