@@ -57,8 +57,30 @@ o View output in the Console window.
 o After finishing, click File > Exit to close Eclipse IDE.
 
 ## PROGRAM:
+```
+    System.out.print("Even Numbers: ");
+    for (int num : numbers) {
+        if (num % 2 == 0) {
+            System.out.print(num + " ");
+        }
+    }
+
+    System.out.println(); // For a new line
+
+    System.out.print("Odd Numbers: ");
+    for (int num : numbers) {
+        if (num % 2 != 0) {
+            System.out.print(num + " ");
+        }
+    }
+}
+
+
+```
 
 ## OUTPUT:
+<img width="1039" height="515" alt="image" src="https://github.com/user-attachments/assets/721d6a85-fb93-467a-8658-c8a5556793e7" />
+
 
 
 
